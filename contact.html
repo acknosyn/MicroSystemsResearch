@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Us | MicroSystems Research Ltd.</title>
+
+	<!-- Meta Stuff -->
+	<meta charset="utf-8">
+
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,800,600,700' rel='stylesheet' type='text/css'>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<!-- menu icon -->
+		<div class="menu-icon">
+			<span>&nbsp;</span>
+		</div>
+
+		<!-- top icon -->
+		<a href="#" class="btn btn-default scroll-to-top"><span class="fa fa-chevron-up"></span></a>
+
+		<div class="menu collapsed">
+			<nav class="side-menu" role="navigation">
+				<a class="logo" href="index.html">MicroSystems Research</a> <!-- logo -->
+				<ul class="text-center bracket-hover">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="uavs.html">U.A.V'S</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="research.html">Research</a></li>
+					<li><a href="partners.html">Partners</a></li>
+					<li><a href="contact.html" class="active">Contact</a></li>
+					<li><a href="extrackt.html">ExTrackt</a></li>
+				</ul>
+			</nav>
+		</div><!-- end menu -->
+
+		<div class="title">
+			<div class="container">
+				<div class="row">
+					<h2 class="text-center">Contact Us</h2>
+				</div>
+			</div>
+		</div><!-- end title -->
+
+		<div class="contact-form">
+			<div class="container">
+				<div class="row">
+					<?php echo $feedback_message; ?>
+					<div class="col-lg-12">
+						<p>All of our products are custom made to order and have application specific firmware. For more information on our products, services, prices, etc, please contact us via email (or phone) and we will get in contact with you as soon as we can.</p>
+					</div>
+					<form role="form" action="send_email.php" method="post">
+						<div class="col-lg-6">
+							<div class="well well-sm"><strong><span class="glyphicon glyphicon-ok form-control-feedback"></span> Required Field</strong></div>
+							<div class="form-group has-feedback">
+								<label for="name">Your Name</label>
+								<div class="input-group">
+									<input type="text" name="name" class="form-control" placeholder="Enter Name" required>
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+									</span>
+								</div>
+							</div>
+							<div class="form-group has-feedback">
+								<label for="email">Your Email</label>
+								<div class="input-group">
+									<input type="email" name="email" class="form-control" placeholder="Enter Email" required>
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+									</span>
+								</div>
+							</div>
+							<div class="form-group has-feedback">
+								<label for="subject">Subject</label>
+								<div class="input-group">
+									<input type="text" name="subject" class="form-control" placeholder="Enter Subject" required>
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+									</span>
+								</div>
+							</div>
+							<div class="form-group has-feedback">
+								<label for="message">Message</label>
+								<div class="input-group" >
+									<textarea name="message" rows="5" class="form-control" required></textarea>
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+									</span>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="find">How Did You Find Out About Us?</label>
+								<div class="input-group">
+									<input type="text" name="find" class="form-control" placeholder="E.g. Web Seacrh, Friends, etc">
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-question-sign form-control-feedback"></span>
+									</span>
+								</div>
+							</div>
+							<div class="form-group has-feedback last-form">
+								<label for="real">What is 4 + 3 ? (Spam Checker)</label>
+								<div class="input-group">
+									<span class="input-group-addon">=</span>
+									<input type="number" name="real" class="form-control" required>
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+									</span>
+								</div>
+							</div>
+							<input type="submit" name="submit" value="Submit" class="btn btn-default learn pull-left">
+						</div>
+					</form>
+					<div class="col-lg-5 col-md-push-1">
+						<address>
+							<h3 class="info-title"><span class="fa fa-phone"></span> Phone</h3>
+							<p class="lead">+64 2126 88730</p>
+							<h3 class="info-title"><span class="fa fa-home"></span> Address</h3>
+							<p class="lead">MicroSystems Research Ltd.<br>Gian F. Badraun<br>P.O. Box 39<br>Port Fitzroy<br>Great Barrier Island 0963<br>New Zealand</p>
+						</address>
+					</div>
+				</div>
+			</div>
+		</div><!-- end contact-form -->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<small>&copy; 2014 MicroSystems Research Ltd.</small>
+						<div class="social">
+							<!-- fb -->
+							<a class="btn btn-facebook" href="https://www.facebook.com/pages/MicroSystems-Research/401949873289174?ref=br_tf" role="button" target="_blank"><i class="fa fa-facebook"></i> | Like + Share</a>
+
+							<!-- g+ -->
+							<div class="g-plusone" data-annotation="none" data-href="https://plus.google.com/b/107491331755196312671/107491331755196312671/posts"></div>
+						</div>
+						<a class="logo pull-right" href="index.html">MicroSystems Research</a> <!-- logo -->
+					</div>
+				</div>
+			</div>
+		</footer><!-- end footer -->
+
+		</div><!-- end wrapper -->
+
+	<!-- JS -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/javascript.js"></script>
+
+	<!-- g+ -->
+	<script src="https://apis.google.com/js/platform.js" async defer>
+		{lang: 'en-GB'}
+	</script>
+	
+</body>
+</html>
