@@ -9,3 +9,7 @@ MicroSystemsResearch.com is primarily aimed at researchers and biological organi
 ## About
 
 > MicroSystems Research Ltd. is a company who design and manufacture microelectronics for various applications. We develop highly accurate and versatile GPS trackers for animals, persons and valuable assets. While closely colaborating with biological organisations whom care for wildlife, we have developed a range of bird trackers to aid in the research of native birds. We conduct research on a wide range of topics such as chemestry and flight. Developing quad-copters is also a field we work in.
+
+### Design Process and Documentation
+
+I've documented the design process from wireframing to prototypes. This is in Documentation.pdf
